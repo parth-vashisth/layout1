@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.trust {
+    font-family: DM Sans;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #1E0E62;
+    width: 100%;
+}
+
+.startup {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    color: #15143966;
+    width: 764px;
+    height: 56px;
+    margin-top: 10px;
+    left: 318px;
+    margin-bottom: 50px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+.img-box{
+    height: 160px;
+    background: #EBEAED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
