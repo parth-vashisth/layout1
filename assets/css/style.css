@@ -71,9 +71,10 @@ section {
 }
 
 .margin-top {
-    margin-top: 10px;
+    margin-top: 24px;
 }
-.img-box{
+
+.img-box {
     height: 160px;
     background: #EBEAED;
     display: flex;
