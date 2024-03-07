@@ -80,7 +80,8 @@ section {
     align-items: center;
     border-radius: 10px;
 }
-.img-box:hover{
+
+.img-box:hover {
     background: black;
     cursor: pointer;
     box-shadow: 0 0 20px black;
