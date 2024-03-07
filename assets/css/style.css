@@ -22,7 +22,6 @@ section {
     letter-spacing: 1px;
     text-align: center;
     color: #1E0E62;
-    width: 100%;
 }
 
 .startup {
@@ -32,7 +31,7 @@ section {
     line-height: 28px;
     text-align: center;
     color: #15143966;
-    width: 764px;
+    max-width: 764px;
     height: 56px;
     margin-top: 10px;
     left: 318px;
@@ -64,8 +63,8 @@ section {
     margin-right: -12px;
 }
 
-.col-3 {
-    width: 25%;
+.col-12 {
+    width: 100%;
     padding-left: 12px;
     padding-right: 12px;
 }
@@ -82,8 +81,35 @@ section {
     align-items: center;
     border-radius: 10px;
 }
-.img-box:hover{
-    cursor: pointer;
-    background: black;
-    box-shadow: 0 0 20px black ;
+
+.margin-t24 {
+    margin-top: 24px
+}
+
+@media (min-width:576px) {
+    .col-sm-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+}
+
+@media (min-width:768px) {
+    .col-md-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+}
+
+@media (min-width:992px) {
+    .col-lg-3 {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+
+    }
+
 }
