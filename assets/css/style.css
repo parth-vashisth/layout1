@@ -32,7 +32,6 @@ section {
     text-align: center;
     color: #15143966;
     max-width: 764px;
-    height: 56px;
     margin-top: 10px;
     left: 318px;
     margin-bottom: 50px;
@@ -80,6 +79,11 @@ section {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+}
+.img-box:hover{
+    background: black;
+    cursor: pointer;
+    box-shadow: 0 0 20px black;
 }
 
 .margin-t24 {
